@@ -663,9 +663,8 @@ public:
 			auxiliar = auxiliares[opaux - 2];
 			for (int i = 0; i < filaux[opaux - 2]; ++i) {
 				for (int j = 0; j < numColum; ++j) {
-					cout << setw(15) << auxiliar[i]->obtenerPos(j) << "|" << setw(15);
+					archivo << setw(15) << auxiliar[i]->obtenerPos(j) << "|" << setw(15);
 				}
-				cout << endl;
 			}
 		}
 		archivo.close();
