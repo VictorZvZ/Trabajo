@@ -1,0 +1,5 @@
+         nombre|         numero|
+         victor|             45|
+         manuel|             89|
+          jorge|             14|
+        enrique|             55|
