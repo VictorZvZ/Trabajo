@@ -399,7 +399,7 @@ public:
 											auxiliar[faux] = new Lista<T>(numColum);
 											for (int j = 0; j < numColum; ++j) {
 												cout << setw(15) << listita[k]->obtenerPos(j) << "|" << setw(15);
-												auxiliar[faux]->pos(listita[i]->obtenerPos(j), j);
+												auxiliar[faux]->pos(listita[k]->obtenerPos(j), j);
 											}
 											faux++;
 											cout << endl;
@@ -433,7 +433,7 @@ public:
 											auxiliar[faux] = new Lista<T>(numColum);
 											for (int j = 0; j < numColum; ++j) {
 												cout << setw(15) << auxiliar2[k]->obtenerPos(j) << "|" << setw(15);
-												auxiliar[faux]->pos(auxiliar2[i]->obtenerPos(j), j);
+												auxiliar[faux]->pos(auxiliar2[k]->obtenerPos(j), j);
 											}
 											faux++;
 											cout << endl;
